@@ -1,7 +1,7 @@
 name := """opun-koropo"""
 organization := "fr.maif"
 
-version := "1.3"
+version := "1.3-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala, SwaggerPlugin) //enable plugin
 
